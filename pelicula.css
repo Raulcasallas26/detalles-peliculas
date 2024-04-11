@@ -1,0 +1,60 @@
+#body {
+    background-image: url(./fondo.png);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.479)), url(./fondo.png);
+}
+
+.card {
+    margin-top: 3%;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+#color {
+    background: -webkit-linear-gradient(right, rgba(103, 131, 255, 0.314), rgba(128, 145, 223, 0.137));
+    color: white;
+
+}
+
+#imput {
+    margin-top: 3%;
+}
+
+#boton {
+    margin-top: 1%;
+}
+
+#cal {
+    background-color: rgba(255, 9, 9, 0.349);
+}
+
+#imagen {
+    display: 50px;
+    margin: 2px;
+
+}
+
+#descripcion {
+    margin: 50px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 255, 0.148);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+}
+
+body {
+    background-image: url('https://source.unsplash.com/random');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
